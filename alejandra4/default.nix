@@ -17,6 +17,7 @@ rustPlatform.buildRustPackage rec {
     };
 
     cargoSha256 = "sha256-tF8E9mnvkTXoViVss9cNjpU4UkEsARp4RtlxKWq55hc=";
+    # cargoSha256 = "sha256-EZSH8AUKRvoL+ABufVQ9SF6coeNPOGZ10WhiErW05/c=";
     #   passthru.tests = {
     #     version = testers.testVersion { package = alejandra; };
     #   };
